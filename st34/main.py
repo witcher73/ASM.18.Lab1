@@ -1,5 +1,5 @@
 
-from .Guild import Guild
+from .guild import Guild
 
 
 
