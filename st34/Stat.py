@@ -1,4 +1,4 @@
-from Character import *
+from .character import Character
 
 class Stat(Character):
 
