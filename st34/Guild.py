@@ -1,8 +1,8 @@
 import pickle,os
 
 
-from .character import Character
-from .stat import Stat
+from .Character import Character
+from .Stat import Stat
 
 
 class Guild:
