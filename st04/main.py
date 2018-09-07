@@ -124,6 +124,8 @@ def menu():
         except ValueError:
             print('\nType a number, please')
 
+def main():
+    menu()
 
 if __name__ == '__main__':
     menu()
