@@ -1,4 +1,4 @@
-import company
+from .company import Company
 
 
 def add_worker(some_company: object):
@@ -90,7 +90,7 @@ def erase_storage(some_company: object):
 
 
 def menu():
-    some_company = company.Company()
+    some_company = Company()
     
     choice = {
         1: add_worker,

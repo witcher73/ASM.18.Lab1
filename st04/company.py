@@ -1,7 +1,7 @@
 import pickle
 
-import worker
-import manager
+from .worker import Worker
+from .manager import Manager
 
 
 class Company():
@@ -11,13 +11,13 @@ class Company():
 
 
     def add_worker(self):
-        w = worker.Worker()
+        w = Worker()
         w.read_attributes_from_console()
         self.storage.append(w)
 
 
     def add_manager(self):
-        m = manager.Manager()
+        m = Manager()
         m.read_attributes_from_console()
         self.storage.append(m)
 

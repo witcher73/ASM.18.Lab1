@@ -1,6 +1,6 @@
-import worker
+from .worker import Worker
 
-class Manager(worker.Worker):
+class Manager(Worker):
     def read_attributes_from_console(self):
         
         while True:
