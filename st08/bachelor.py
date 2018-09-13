@@ -13,6 +13,3 @@ class Bachelor:
         print('- Университет: ', self.university)
 
 
-if __name__ == '__main__':
-    b = Bachelor()
-    b.display()
