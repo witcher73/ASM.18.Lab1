@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from main_class import MainClass
+from .main_class import MainClass
 
 
 class ReadWrite(MainClass):

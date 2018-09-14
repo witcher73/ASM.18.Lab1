@@ -4,7 +4,7 @@ import pickle
 from time import sleep
 from os import system
 
-from read_write import ReadWrite
+from .read_write import ReadWrite
 
 
 class Container(ReadWrite):

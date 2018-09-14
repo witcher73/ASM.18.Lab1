@@ -2,7 +2,7 @@
 
 from time import sleep
 from os import system
-from container import Container
+from .container import Container
 
 
 def main_menu():
