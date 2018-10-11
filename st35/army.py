@@ -12,12 +12,12 @@ class Army:
         self.serviceman = []
 
 
-    def add_bachelor(self):
+    def add_soldier(self):
         s = Soldier()
         self.serviceman.append(s)
 
 
-    def add_master(self):
+    def add_officer(self):
         o = Officer()
         self.serviceman.append(o)
 
